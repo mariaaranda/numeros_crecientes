@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: rgb(230, 230, 35);
+    text-align: center;
+    font-size: 50px;
+
+}
+.padre {
+    padding: 50px 50px;
+    background-color: black;
+    height: 100vh;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60%;
+    margin: auto;
+}
+
+.contain  {
+    font-size: 50px;
+    color:white;
+    margin-top: 50px;
+}
